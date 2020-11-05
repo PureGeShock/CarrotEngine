@@ -1,0 +1,3 @@
+/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles/rebuild_cache.dir
+/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles/edit_cache.dir
+/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles/CarrotEngine.dir

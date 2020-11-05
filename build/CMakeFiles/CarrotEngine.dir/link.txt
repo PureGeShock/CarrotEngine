@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/CarrotEngine.dir/src/main.cpp.o  -o ../bin/CarrotEngine  -lGL -lGLU -lGLEW -lSDL2 
