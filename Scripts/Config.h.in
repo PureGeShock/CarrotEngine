@@ -1,0 +1,7 @@
+#pragma once
+
+/*
+ * These values are automatically set according to their cmake variables.
+ */
+#define ENGINE_VERSION "${ENGINE_VERSION}"
+#define CURRENT_PLATFORM ${CURRENT_PLATFORM}

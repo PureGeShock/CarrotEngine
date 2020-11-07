@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/CarrotEngine",
+            "program": "${workspaceFolder}/bin/Linux/CarrotEngine",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

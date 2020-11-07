@@ -53,46 +53,64 @@ CMAKE_BINARY_DIR = /home/eugene/Development/Projects/CarrotEngine/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CarrotEngine.dir/all
+all: Scripts/Linux/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: Scripts/Linux/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CarrotEngine.dir/clean
+clean: Scripts/Linux/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CarrotEngine.dir
+# Directory level rules for directory Scripts/Linux
+
+# Recursive "all" directory target.
+Scripts/Linux/all: Scripts/Linux/CMakeFiles/CarrotEngine.dir/all
+
+.PHONY : Scripts/Linux/all
+
+# Recursive "preinstall" directory target.
+Scripts/Linux/preinstall:
+
+.PHONY : Scripts/Linux/preinstall
+
+# Recursive "clean" directory target.
+Scripts/Linux/clean: Scripts/Linux/CMakeFiles/CarrotEngine.dir/clean
+
+.PHONY : Scripts/Linux/clean
+
+#=============================================================================
+# Target rules for target Scripts/Linux/CMakeFiles/CarrotEngine.dir
 
 # All Build rule for target.
-CMakeFiles/CarrotEngine.dir/all:
-	$(MAKE) -f CMakeFiles/CarrotEngine.dir/build.make CMakeFiles/CarrotEngine.dir/depend
-	$(MAKE) -f CMakeFiles/CarrotEngine.dir/build.make CMakeFiles/CarrotEngine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=1,2 "Built target CarrotEngine"
-.PHONY : CMakeFiles/CarrotEngine.dir/all
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/all:
+	$(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/depend
+	$(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CarrotEngine"
+.PHONY : Scripts/Linux/CMakeFiles/CarrotEngine.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CarrotEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CarrotEngine.dir/all
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 Scripts/Linux/CMakeFiles/CarrotEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles 0
-.PHONY : CMakeFiles/CarrotEngine.dir/rule
+.PHONY : Scripts/Linux/CMakeFiles/CarrotEngine.dir/rule
 
 # Convenience name for target.
-CarrotEngine: CMakeFiles/CarrotEngine.dir/rule
+CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/rule
 
 .PHONY : CarrotEngine
 
 # clean rule for target.
-CMakeFiles/CarrotEngine.dir/clean:
-	$(MAKE) -f CMakeFiles/CarrotEngine.dir/build.make CMakeFiles/CarrotEngine.dir/clean
-.PHONY : CMakeFiles/CarrotEngine.dir/clean
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/clean:
+	$(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/clean
+.PHONY : Scripts/Linux/CMakeFiles/CarrotEngine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

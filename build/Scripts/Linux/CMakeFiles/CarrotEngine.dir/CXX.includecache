@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Engine/CarrotCore.h
+Macros/Macro.h
+../src/Engine/Macros/Macro.h
+Core/Object.h
+../src/Engine/Core/Object.h
+
+../src/Engine/Core/Object.h
+src/Engine/Macros/Macro.h
+../src/Engine/Core/src/Engine/Macros/Macro.h
+
+../src/Engine/Macros/Macro.h
+Public/MacroMemory.h
+../src/Engine/Macros/Public/MacroMemory.h
+Public/MacroPlatform.h
+../src/Engine/Macros/Public/MacroPlatform.h
+
+../src/Engine/Macros/Public/MacroMemory.h
+memory
+-
+
+../src/Engine/Macros/Public/MacroPlatform.h
+
+../src/Engine/System/Window/Window.h
+src/Engine/CarrotCore.h
+../src/Engine/System/Window/src/Engine/CarrotCore.h
+
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.cpp
+Window_Linux.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.h
+
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.h
+src/Engine/CarrotCore.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/src/Engine/CarrotCore.h
+src/Engine/System/Window/Window.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/src/Engine/System/Window/Window.h
+
