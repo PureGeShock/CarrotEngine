@@ -23,8 +23,6 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.
  ../src/Engine/Macros/Private/MacroCrossPlatform.h
  ../src/Engine/Macros/Public/MacroMemory.h
  ../src/Engine/Macros/Public/MacroPlatform.h
- ../src/Engine/System/Window/Window.h
- /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.h
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.cpp
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o
