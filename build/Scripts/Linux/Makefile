@@ -125,6 +125,60 @@ CarrotEngine/fast:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/build
 .PHONY : CarrotEngine/fast
 
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.o: __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.o
+
+# target to build an object file
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o
+
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.i: __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.i
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.i
+
+# target to preprocess a source file
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.i
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.i
+
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.s: __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.s
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.s
+
+# target to generate assembly for a file
+__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.s
+.PHONY : __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.s
+
+__/__/src/Engine/Core/Interfaces/Interface.o: __/__/src/Engine/Core/Interfaces/Interface.cpp.o
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.o
+
+# target to build an object file
+__/__/src/Engine/Core/Interfaces/Interface.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Interface.cpp.o
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.cpp.o
+
+__/__/src/Engine/Core/Interfaces/Interface.i: __/__/src/Engine/Core/Interfaces/Interface.cpp.i
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.i
+
+# target to preprocess a source file
+__/__/src/Engine/Core/Interfaces/Interface.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Interface.cpp.i
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.cpp.i
+
+__/__/src/Engine/Core/Interfaces/Interface.s: __/__/src/Engine/Core/Interfaces/Interface.cpp.s
+
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.s
+
+# target to generate assembly for a file
+__/__/src/Engine/Core/Interfaces/Interface.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Interface.cpp.s
+.PHONY : __/__/src/Engine/Core/Interfaces/Interface.cpp.s
+
 __/__/src/Engine/Core/Object.o: __/__/src/Engine/Core/Object.cpp.o
 
 .PHONY : __/__/src/Engine/Core/Object.o
@@ -178,6 +232,114 @@ __/__/src/Engine/Engine.s: __/__/src/Engine/Engine.cpp.s
 __/__/src/Engine/Engine.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.s
 .PHONY : __/__/src/Engine/Engine.cpp.s
+
+__/__/src/Engine/System/LogSystem/Log.o: __/__/src/Engine/System/LogSystem/Log.cpp.o
+
+.PHONY : __/__/src/Engine/System/LogSystem/Log.o
+
+# target to build an object file
+__/__/src/Engine/System/LogSystem/Log.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o
+.PHONY : __/__/src/Engine/System/LogSystem/Log.cpp.o
+
+__/__/src/Engine/System/LogSystem/Log.i: __/__/src/Engine/System/LogSystem/Log.cpp.i
+
+.PHONY : __/__/src/Engine/System/LogSystem/Log.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/LogSystem/Log.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.i
+.PHONY : __/__/src/Engine/System/LogSystem/Log.cpp.i
+
+__/__/src/Engine/System/LogSystem/Log.s: __/__/src/Engine/System/LogSystem/Log.cpp.s
+
+.PHONY : __/__/src/Engine/System/LogSystem/Log.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/LogSystem/Log.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.s
+.PHONY : __/__/src/Engine/System/LogSystem/Log.cpp.s
+
+__/__/src/Engine/System/Managers/Manager.o: __/__/src/Engine/System/Managers/Manager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/Manager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/Manager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/Manager.cpp.o
+
+__/__/src/Engine/System/Managers/Manager.i: __/__/src/Engine/System/Managers/Manager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/Manager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/Manager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/Manager.cpp.i
+
+__/__/src/Engine/System/Managers/Manager.s: __/__/src/Engine/System/Managers/Manager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/Manager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/Manager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/Manager.cpp.s
+
+__/__/src/Engine/System/Managers/UpdateManager.o: __/__/src/Engine/System/Managers/UpdateManager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/UpdateManager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.cpp.o
+
+__/__/src/Engine/System/Managers/UpdateManager.i: __/__/src/Engine/System/Managers/UpdateManager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/UpdateManager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.cpp.i
+
+__/__/src/Engine/System/Managers/UpdateManager.s: __/__/src/Engine/System/Managers/UpdateManager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/UpdateManager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/UpdateManager.cpp.s
+
+__/__/src/Engine/System/Managers/WindowsManager.o: __/__/src/Engine/System/Managers/WindowsManager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/WindowsManager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.cpp.o
+
+__/__/src/Engine/System/Managers/WindowsManager.i: __/__/src/Engine/System/Managers/WindowsManager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/WindowsManager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.cpp.i
+
+__/__/src/Engine/System/Managers/WindowsManager.s: __/__/src/Engine/System/Managers/WindowsManager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/WindowsManager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/WindowsManager.cpp.s
 
 __/__/src/Engine/System/Window/Platform/Window_Linux.o: __/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
 
@@ -269,12 +431,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CarrotEngine"
+	@echo "... __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.o"
+	@echo "... __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.i"
+	@echo "... __/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.s"
+	@echo "... __/__/src/Engine/Core/Interfaces/Interface.o"
+	@echo "... __/__/src/Engine/Core/Interfaces/Interface.i"
+	@echo "... __/__/src/Engine/Core/Interfaces/Interface.s"
 	@echo "... __/__/src/Engine/Core/Object.o"
 	@echo "... __/__/src/Engine/Core/Object.i"
 	@echo "... __/__/src/Engine/Core/Object.s"
 	@echo "... __/__/src/Engine/Engine.o"
 	@echo "... __/__/src/Engine/Engine.i"
 	@echo "... __/__/src/Engine/Engine.s"
+	@echo "... __/__/src/Engine/System/LogSystem/Log.o"
+	@echo "... __/__/src/Engine/System/LogSystem/Log.i"
+	@echo "... __/__/src/Engine/System/LogSystem/Log.s"
+	@echo "... __/__/src/Engine/System/Managers/Manager.o"
+	@echo "... __/__/src/Engine/System/Managers/Manager.i"
+	@echo "... __/__/src/Engine/System/Managers/Manager.s"
+	@echo "... __/__/src/Engine/System/Managers/UpdateManager.o"
+	@echo "... __/__/src/Engine/System/Managers/UpdateManager.i"
+	@echo "... __/__/src/Engine/System/Managers/UpdateManager.s"
+	@echo "... __/__/src/Engine/System/Managers/WindowsManager.o"
+	@echo "... __/__/src/Engine/System/Managers/WindowsManager.i"
+	@echo "... __/__/src/Engine/System/Managers/WindowsManager.s"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.o"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.i"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.s"

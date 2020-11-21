@@ -4,8 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o"
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Interface.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Interface.cpp.o"
   "/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Object.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Object.cpp.o"
   "/home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o"
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o"
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Manager.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o"
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/UpdateManager.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o"
+  "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/WindowsManager.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o"
   "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o"
   "/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o"
   "/home/eugene/Development/Projects/CarrotEngine/src/main.cpp" "/home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o"

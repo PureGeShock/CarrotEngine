@@ -25,11 +25,9 @@ public:
 
 protected:
 
-    virtual void InitializeWindow(){};
+    virtual void InitializeWindow() {};
 
-private:
-
-    WindowData m_data;
+    WindowData m_wData;
 };
 
 }

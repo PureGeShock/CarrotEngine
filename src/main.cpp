@@ -107,7 +107,8 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
 int main (int argc, char* argv[])  
 {
     Carrot::WindowData wd;
-    Carrot::WindowPtr xxx = Carrot::Window::CreateWindow(wd);
+    //Carrot::WindowPtr xxx = Carrot::Window::CreateWindow(wd);
+    Carrot::WindowPtr xxx;
 
     //COMPILER_VERIFY(true);
     // ----- Initialize SDL

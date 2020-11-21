@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../src/Engine/CarrotCore.h
-Macros/Macro.h
-../src/Engine/Macros/Macro.h
-Core/Object.h
-../src/Engine/Core/Object.h
-
-../src/Engine/Config.h
-
 ../src/Engine/Core/Object.h
 src/Engine/Macros/Macro.h
 ../src/Engine/Core/src/Engine/Macros/Macro.h
@@ -23,13 +15,15 @@ Public/MacroMemory.h
 ../src/Engine/Macros/Public/MacroMemory.h
 Public/MacroPlatform.h
 ../src/Engine/Macros/Public/MacroPlatform.h
+Public/Enum.h
+../src/Engine/Macros/Public/Enum.h
 
-../src/Engine/Macros/Private/CommonPrivate.h
-
-../src/Engine/Macros/Private/MacroCrossPlatform.h
-CommonPrivate.h
-../src/Engine/Macros/Private/CommonPrivate.h
-memory
+../src/Engine/Macros/Public/Enum.h
+cstddef
+-
+cstring
+-
+stdexcept
 -
 
 ../src/Engine/Macros/Public/MacroMemory.h
@@ -38,15 +32,31 @@ memory
 
 ../src/Engine/Macros/Public/MacroPlatform.h
 
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.cpp
-Window.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
-src/Engine/Config.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/src/Engine/Config.h
-src/Engine/Macros/Private/MacroCrossPlatform.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/src/Engine/Macros/Private/MacroCrossPlatform.h
+../src/Engine/System/Managers/Manager.h
+src/Engine/Macros/Macro.h
+../src/Engine/System/Managers/src/Engine/Macros/Macro.h
+src/Engine/Core/Object.h
+../src/Engine/System/Managers/src/Engine/Core/Object.h
 
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
-src/Engine/CarrotCore.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/src/Engine/CarrotCore.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.cpp
+Engine.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.h
+System/LogSystem/Log.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.h
+SDL2/SDL.h
+-
+
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.h
+vector
+-
+src/Engine/System/Managers/Manager.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/src/Engine/System/Managers/Manager.h
+
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.h
+string
+-
+iostream
+-
+src/Engine/Macros/Macro.h
+/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/src/Engine/Macros/Macro.h
 

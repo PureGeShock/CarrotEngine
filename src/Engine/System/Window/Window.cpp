@@ -7,14 +7,15 @@ namespace Carrot
 {
 
 Window::Window(const WindowData& wData)
-    : m_data(wData)
+    : m_wData(wData)
 {
-    InitializeWindow();
 }
 
 WindowPtr Window::CreateWindow(const WindowData& wData)
 {
-    return CREATE_OBJECT_PLATFORM(Window, CURRENT_PLATFORM, wData);
+    WindowPtr CreatedWindow = CREATE_OBJECT_PLATFORM(Window, CURRENT_PLATFORM, wData);
+    CreatedWindow->InitializeWindow();
+    return CreatedWindow;
 }
 
 }
