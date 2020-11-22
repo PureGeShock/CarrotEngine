@@ -7,20 +7,24 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Inter
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Object.cpp.o: ../src/Engine/Core/Object.cpp
 
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Core/Object.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Macro.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Public/Enum.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Public/MacroPlatform.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/LogSystem/Log.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/Manager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Engine.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Engine.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/LogSystem/Log.h
 
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Macro.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/Enum.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/MacroPlatform.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.h
 
@@ -30,14 +34,19 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Updat
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o: ../src/Engine/System/Managers/WindowsManager.cpp
 
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.cpp
+
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/CarrotCore.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Includes/STLIncludes.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Macros/Macro.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Macros/Public/Enum.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Macros/Public/MacroPlatform.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Window/Window.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Window/Platform/Window_Linux.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Window/Platform/Window_Linux.h
@@ -45,23 +54,30 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platfor
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/CarrotCore.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Includes/STLIncludes.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Macro.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Private/CommonPrivate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Private/MacroCrossPlatform.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Public/Enum.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Public/MacroPlatform.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/Window/Window.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/Window/Window.h
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/CarrotCore.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Includes/STLIncludes.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Macro.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Public/Enum.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Public/MacroPlatform.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Window/Window.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/main.cpp
 

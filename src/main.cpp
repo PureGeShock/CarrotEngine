@@ -104,8 +104,44 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
 }
 
 
+
+
+
+class Test : Carrot::Object
+{
+public:
+    void Init()
+    {
+        Carrot::EventDelegate<int, float> TestDelegate;
+        TestDelegate.AddListener(
+            [](int some, float some2)
+            {
+                std::cout << "Lambda: " << some << ", " << some2 << std::endl;
+            });
+
+        TestDelegate.AddListener(this, &Test::Method);
+        TestDelegate.AddListener(this, &Test::Method);
+        TestDelegate.AddListener(this, &Test::Method2);
+        TestDelegate.RemoveAllListeners(this);
+
+        TestDelegate.Broadcast(10, 20.0f);
+    }
+
+    void Method(int result, float result2)
+    {
+        std::cout << "Method: " << result << ", " << result2 << std::endl;
+    }
+    void Method2(int result, float result2)
+    {
+        std::cout << "Method2: " << result << ", " << result2 << std::endl;
+    }
+};
+
 int main (int argc, char* argv[])  
 {
+    Test TestObject;
+    TestObject.Init();
+
     Carrot::WindowData wd;
     //Carrot::WindowPtr xxx = Carrot::Window::CreateWindow(wd);
     Carrot::WindowPtr xxx;

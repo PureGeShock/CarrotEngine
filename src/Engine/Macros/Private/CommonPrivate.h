@@ -1,3 +1,5 @@
+#pragma once
+
 #define COMBINE(obj1, obj2)                     obj1##obj2
 #define CONCAT(obj1, obj2)                      obj1 obj2
 #define STRINGIFY(...)					        #__VA_ARGS__

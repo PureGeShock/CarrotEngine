@@ -341,6 +341,33 @@ __/__/src/Engine/System/Managers/WindowsManager.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.s
 .PHONY : __/__/src/Engine/System/Managers/WindowsManager.cpp.s
 
+__/__/src/Engine/System/Other/Delegate/Delegate.o: __/__/src/Engine/System/Other/Delegate/Delegate.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.cpp.o
+
+__/__/src/Engine/System/Other/Delegate/Delegate.i: __/__/src/Engine/System/Other/Delegate/Delegate.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Delegate/Delegate.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.cpp.i
+
+__/__/src/Engine/System/Other/Delegate/Delegate.s: __/__/src/Engine/System/Other/Delegate/Delegate.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Delegate/Delegate.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.cpp.s
+
 __/__/src/Engine/System/Window/Platform/Window_Linux.o: __/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
 
 .PHONY : __/__/src/Engine/System/Window/Platform/Window_Linux.o
@@ -455,6 +482,9 @@ help:
 	@echo "... __/__/src/Engine/System/Managers/WindowsManager.o"
 	@echo "... __/__/src/Engine/System/Managers/WindowsManager.i"
 	@echo "... __/__/src/Engine/System/Managers/WindowsManager.s"
+	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.o"
+	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.i"
+	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.s"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.o"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.i"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.s"

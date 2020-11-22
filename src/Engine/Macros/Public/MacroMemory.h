@@ -1,3 +1,5 @@
+#pragma once
+
 #include <memory>
 
 #define PTR( cls )	using cls##Ptr = std::shared_ptr< class cls >; \

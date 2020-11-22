@@ -1,3 +1,3 @@
 #include "Public/MacroMemory.h"
-#include "Public/MacroPlatform.h"
+#include "Public/MacroSystem.h"
 #include "Public/Enum.h"

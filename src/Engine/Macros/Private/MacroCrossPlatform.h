@@ -1,3 +1,5 @@
+#pragma once
+
 #include "CommonPrivate.h"
 #include <memory>
 
