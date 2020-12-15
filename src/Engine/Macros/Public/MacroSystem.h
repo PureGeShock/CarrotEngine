@@ -18,11 +18,14 @@
 #endif
 
 #if CURRENT_PLATFORM == Linux
-    #define FORCEINLINE __inline
+    #define FORCE_INLINE __inline
 #else
-    #define FORCEINLINE __forceinline
+    #define FORCE_INLINE __forceinline
 #endif
 
+#define NONCOPYABLE(Type) Type(const Type&)=delete; Type& operator=(const Type&)=delete
+
+#define EnsureMsg(Condition, Msg) Condition ? true : false
 
 /*
 #define EnsureMsg(Condition, Msg) \

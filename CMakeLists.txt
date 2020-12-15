@@ -11,6 +11,9 @@ set(CONFIG_IN_PATH "Scripts/Config.h.in")
 set(CONFIG_PATH "../src/Engine/Config.h")
 configure_file("${CONFIG_IN_PATH}" "${CONFIG_PATH}")
 
+# CMake C++ flags
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread")
+
 # The following folder will be included
 include_directories("${PROJECT_SOURCE_DIR}")
 

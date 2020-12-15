@@ -15,13 +15,24 @@ class EventDelegate
     
 public:
 
-    void AddListener(CurrentCallback Callback)
+    FORCE_INLINE void AddListener(CurrentCallback Callback)
     {
         Listeners.push_back(Callback);
     }
 
+    FORCE_INLINE void AddWeakListener(const ObjectPtr& Subscriber, CurrentCallback Callback)
+    {
+        if (!Subscriber)
+        {
+            CLog(LogType::Error, "[Delegate, Weak] cannot subscribe on nullptr object.");
+            return;
+        }
+
+        WeakListeners.push_back(std::make_pair(std::weak_ptr<Object>(Subscriber), Callback));
+    }
+
     template<class T>
-    void AddListener(T* Subscriber, void (T::*Func)(Args ...))
+    FORCE_INLINE void AddListener(T* Subscriber, void (T::*Func)(Args ...))
     {
         if (!Subscriber)
         {
@@ -93,23 +104,35 @@ public:
     }
 
     void Broadcast(Args ... args);
+    void BroadcastIfBound(Args ... args);
 
 private:
 
     void BroadcastListeners(Args ... args);
+    void BroadcastWeakListeners(Args ... args);
     void BroadcastObjectListeners(Args ... args);
 
 private:
 
-    std::vector<std::shared_ptr<EventObjectBase<Args ...>>> ObjectsListeners;
     std::vector<CurrentCallback> Listeners;
+    std::vector<std::pair<std::weak_ptr<Object>, CurrentCallback>> WeakListeners;
+    std::vector<std::shared_ptr<EventObjectBase<Args ...>>> ObjectsListeners;
 };
 
 template<typename ... Args>
 void EventDelegate<Args ...>::Broadcast(Args ... args)
 {
     BroadcastListeners(args...);
+    BroadcastWeakListeners(args...);
     BroadcastObjectListeners(args...);
+}
+
+template<typename ... Args>
+void EventDelegate<Args ...>::BroadcastIfBound(Args ... args)
+{
+    if (!Listeners.empty()) { BroadcastListeners(args...); }
+    if (!WeakListeners.empty()) { BroadcastWeakListeners(args...); }
+    if (!ObjectsListeners.empty()) { BroadcastObjectListeners(args...); }
 }
 
 template<typename ... Args>
@@ -130,6 +153,28 @@ void EventDelegate<Args ...>::BroadcastListeners(Args ... args)
         {
             it = Listeners.erase(it);
             end = Listeners.end();
+        }        
+    }
+}
+
+template<typename ... Args>
+void EventDelegate<Args ...>::BroadcastWeakListeners(Args ... args)
+{
+    auto it = WeakListeners.begin();
+    auto end = WeakListeners.end();
+
+    while (it != end)
+    {
+        auto Listener = (*it);
+        if (Listener.first.lock() && Listener.second)
+        {
+            Listener.second(args...);
+            ++it;
+        }
+        else
+        {
+            it = WeakListeners.erase(it);
+            end = WeakListeners.end();
         }        
     }
 }

@@ -260,6 +260,33 @@ __/__/src/Engine/System/LogSystem/Log.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.s
 .PHONY : __/__/src/Engine/System/LogSystem/Log.cpp.s
 
+__/__/src/Engine/System/Managers/EventsManager.o: __/__/src/Engine/System/Managers/EventsManager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/EventsManager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.cpp.o
+
+__/__/src/Engine/System/Managers/EventsManager.i: __/__/src/Engine/System/Managers/EventsManager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/EventsManager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.cpp.i
+
+__/__/src/Engine/System/Managers/EventsManager.s: __/__/src/Engine/System/Managers/EventsManager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/EventsManager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/EventsManager.cpp.s
+
 __/__/src/Engine/System/Managers/Manager.o: __/__/src/Engine/System/Managers/Manager.cpp.o
 
 .PHONY : __/__/src/Engine/System/Managers/Manager.o
@@ -368,6 +395,87 @@ __/__/src/Engine/System/Other/Delegate/Delegate.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.s
 .PHONY : __/__/src/Engine/System/Other/Delegate/Delegate.cpp.s
 
+__/__/src/Engine/System/Other/Delegate/EventObject.o: __/__/src/Engine/System/Other/Delegate/EventObject.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.cpp.o
+
+__/__/src/Engine/System/Other/Delegate/EventObject.i: __/__/src/Engine/System/Other/Delegate/EventObject.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Delegate/EventObject.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.cpp.i
+
+__/__/src/Engine/System/Other/Delegate/EventObject.s: __/__/src/Engine/System/Other/Delegate/EventObject.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Delegate/EventObject.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Delegate/EventObject.cpp.s
+
+__/__/src/Engine/System/Other/Multithreading/Thread.o: __/__/src/Engine/System/Other/Multithreading/Thread.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.cpp.o
+
+__/__/src/Engine/System/Other/Multithreading/Thread.i: __/__/src/Engine/System/Other/Multithreading/Thread.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Multithreading/Thread.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.cpp.i
+
+__/__/src/Engine/System/Other/Multithreading/Thread.s: __/__/src/Engine/System/Other/Multithreading/Thread.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Multithreading/Thread.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Multithreading/Thread.cpp.s
+
+__/__/src/Engine/System/Other/Multithreading/ThreadController.o: __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o
+
+__/__/src/Engine/System/Other/Multithreading/ThreadController.i: __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.i
+
+__/__/src/Engine/System/Other/Multithreading/ThreadController.s: __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s
+
 __/__/src/Engine/System/Window/Platform/Window_Linux.o: __/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
 
 .PHONY : __/__/src/Engine/System/Window/Platform/Window_Linux.o
@@ -473,6 +581,9 @@ help:
 	@echo "... __/__/src/Engine/System/LogSystem/Log.o"
 	@echo "... __/__/src/Engine/System/LogSystem/Log.i"
 	@echo "... __/__/src/Engine/System/LogSystem/Log.s"
+	@echo "... __/__/src/Engine/System/Managers/EventsManager.o"
+	@echo "... __/__/src/Engine/System/Managers/EventsManager.i"
+	@echo "... __/__/src/Engine/System/Managers/EventsManager.s"
 	@echo "... __/__/src/Engine/System/Managers/Manager.o"
 	@echo "... __/__/src/Engine/System/Managers/Manager.i"
 	@echo "... __/__/src/Engine/System/Managers/Manager.s"
@@ -485,6 +596,15 @@ help:
 	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.o"
 	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.i"
 	@echo "... __/__/src/Engine/System/Other/Delegate/Delegate.s"
+	@echo "... __/__/src/Engine/System/Other/Delegate/EventObject.o"
+	@echo "... __/__/src/Engine/System/Other/Delegate/EventObject.i"
+	@echo "... __/__/src/Engine/System/Other/Delegate/EventObject.s"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/Thread.o"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/Thread.i"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/Thread.s"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.o"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.i"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.s"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.o"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.i"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.s"

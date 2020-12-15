@@ -105,24 +105,25 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
 
 
 
+PTR(Test)
 
-
-class Test : Carrot::Object
+class Test : public Carrot::Object
 {
 public:
     void Init()
     {
         Carrot::EventDelegate<int, float> TestDelegate;
-        TestDelegate.AddListener(
+        TestPtr TestObject = std::make_shared<Test>();
+        TestDelegate.AddWeakListener(This(),
             [](int some, float some2)
             {
                 std::cout << "Lambda: " << some << ", " << some2 << std::endl;
             });
 
-        TestDelegate.AddListener(this, &Test::Method);
-        TestDelegate.AddListener(this, &Test::Method);
-        TestDelegate.AddListener(this, &Test::Method2);
-        TestDelegate.RemoveAllListeners(this);
+        //TestDelegate.AddListener(this, &Test::Method);
+        //TestDelegate.AddListener(this, &Test::Method);
+        //TestDelegate.AddListener(this, &Test::Method2);
+        //TestDelegate.RemoveAllListeners(this);
 
         TestDelegate.Broadcast(10, 20.0f);
     }
@@ -139,8 +140,8 @@ public:
 
 int main (int argc, char* argv[])  
 {
-    Test TestObject;
-    TestObject.Init();
+    TestPtr TestObject = std::make_shared<Test>();
+    TestObject->Init();
 
     Carrot::WindowData wd;
     //Carrot::WindowPtr xxx = Carrot::Window::CreateWindow(wd);
@@ -212,19 +213,37 @@ int main (int argc, char* argv[])
 
     //glClearColor(0.0f, 0.0f, 0.4f, 0.0f);
 
+    /*Carrot::EventsManagerPtr EventsManager = std::make_shared<Carrot::EventsManager>();
+    EventsManager->Initialize();
+    EventsManager->OnKeyboardEvent.AddListener(
+        [](Carrot::EventType type, const SDL_KeyboardEvent& event)
+        {
+            std::cout << event.keysym.scancode << "\n";
+        });*/
+
     // ----- Game loop
     bool quit = false;
     while (quit == false)
     {
+        const auto before = std::chrono::system_clock::now();
+
         SDL_Event windowEvent;
         while (SDL_PollEvent(&windowEvent))
         {
+            if (windowEvent.type == SDL_KEYDOWN)
+            {
+                int X = 0;
+            }
+
             if (windowEvent.type == SDL_QUIT)
             {
                 quit = true;
                 break;
             }
         }
+
+        const auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::system_clock::now() - before);
+        //Carrot::Log::DisplayLog(Carrot::LogType::Info, std::to_string(duration.count()));
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 

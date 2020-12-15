@@ -15,6 +15,12 @@ System/LogSystem/Log.h
 ../src/Engine/System/LogSystem/Log.h
 System/Other/Delegate/Delegate.h
 ../src/Engine/System/Other/Delegate/Delegate.h
+System/Managers/EventsManager.h
+../src/Engine/System/Managers/EventsManager.h
+Includes/STLIncludes.h
+../src/Engine/Includes/STLIncludes.h
+Includes/SDLIncludes.h
+../src/Engine/Includes/SDLIncludes.h
 glm/glm.hpp
 -
 
@@ -23,6 +29,10 @@ glm/glm.hpp
 ../src/Engine/Core/Object.h
 src/Engine/Macros/Macro.h
 ../src/Engine/Core/src/Engine/Macros/Macro.h
+
+../src/Engine/Includes/SDLIncludes.h
+SDL2/SDL.h
+-
 
 ../src/Engine/Includes/STLIncludes.h
 functional
@@ -42,6 +52,12 @@ unordered_map
 set
 -
 unordered_set
+-
+thread
+-
+mutex
+-
+queue
 -
 
 ../src/Engine/Macros/Macro.h
@@ -78,6 +94,24 @@ iostream
 src/Engine/Macros/Macro.h
 ../src/Engine/System/LogSystem/src/Engine/Macros/Macro.h
 
+../src/Engine/System/Managers/EventsManager.h
+src/Engine/System/Managers/Manager.h
+../src/Engine/System/Managers/src/Engine/System/Managers/Manager.h
+src/Engine/Includes/STLIncludes.h
+../src/Engine/System/Managers/src/Engine/Includes/STLIncludes.h
+src/Engine/Includes/SDLIncludes.h
+../src/Engine/System/Managers/src/Engine/Includes/SDLIncludes.h
+src/Engine/System/Other/Delegate/Delegate.h
+../src/Engine/System/Managers/src/Engine/System/Other/Delegate/Delegate.h
+src/Engine/System/Other/Multithreading/Thread.h
+../src/Engine/System/Managers/src/Engine/System/Other/Multithreading/Thread.h
+
+../src/Engine/System/Managers/Manager.h
+src/Engine/Macros/Macro.h
+../src/Engine/System/Managers/src/Engine/Macros/Macro.h
+src/Engine/Core/Object.h
+../src/Engine/System/Managers/src/Engine/Core/Object.h
+
 ../src/Engine/System/Other/Delegate/Delegate.h
 src/Engine/Includes/STLIncludes.h
 ../src/Engine/System/Other/Delegate/src/Engine/Includes/STLIncludes.h
@@ -89,6 +123,12 @@ EventObject.h
 ../src/Engine/System/Other/Delegate/EventObject.h
 
 ../src/Engine/System/Other/Delegate/EventObject.h
+
+../src/Engine/System/Other/Multithreading/Thread.h
+src/Engine/Includes/STLIncludes.h
+../src/Engine/System/Other/Multithreading/src/Engine/Includes/STLIncludes.h
+src/Engine/Macros/Macro.h
+../src/Engine/System/Other/Multithreading/src/Engine/Macros/Macro.h
 
 /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
 src/Engine/CarrotCore.h

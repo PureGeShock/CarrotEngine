@@ -11,6 +11,9 @@ PTR(Manager);
 class Manager : public Object
 {
 public:
+
+    virtual void Initialize() = 0;
+
     virtual void Update(float dt) = 0;
 };
 

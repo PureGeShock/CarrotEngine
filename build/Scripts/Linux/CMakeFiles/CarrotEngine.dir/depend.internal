@@ -28,6 +28,22 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.
  ../src/Engine/System/LogSystem/Log.h
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.cpp
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o
+ ../src/Engine/Config.h
+ ../src/Engine/Core/Object.h
+ ../src/Engine/Includes/SDLIncludes.h
+ ../src/Engine/Includes/STLIncludes.h
+ ../src/Engine/Macros/Macro.h
+ ../src/Engine/Macros/Public/Enum.h
+ ../src/Engine/Macros/Public/MacroMemory.h
+ ../src/Engine/Macros/Public/MacroSystem.h
+ ../src/Engine/System/LogSystem/Log.h
+ ../src/Engine/System/Managers/Manager.h
+ ../src/Engine/System/Other/Delegate/Delegate.h
+ ../src/Engine/System/Other/Delegate/EventObject.h
+ ../src/Engine/System/Other/Multithreading/Thread.h
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/EventsManager.cpp
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/EventsManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Manager.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o
@@ -36,18 +52,36 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Windo
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/WindowsManager.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Delegate/Delegate.cpp
-Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
- ../src/Engine/CarrotCore.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Delegate/EventObject.cpp
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o
  ../src/Engine/Config.h
- ../src/Engine/Core/Object.h
  ../src/Engine/Includes/STLIncludes.h
  ../src/Engine/Macros/Macro.h
  ../src/Engine/Macros/Public/Enum.h
  ../src/Engine/Macros/Public/MacroMemory.h
  ../src/Engine/Macros/Public/MacroSystem.h
  ../src/Engine/System/LogSystem/Log.h
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/Thread.cpp
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/Thread.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o
+ /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/ThreadController.cpp
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
+ ../src/Engine/CarrotCore.h
+ ../src/Engine/Config.h
+ ../src/Engine/Core/Object.h
+ ../src/Engine/Includes/SDLIncludes.h
+ ../src/Engine/Includes/STLIncludes.h
+ ../src/Engine/Macros/Macro.h
+ ../src/Engine/Macros/Public/Enum.h
+ ../src/Engine/Macros/Public/MacroMemory.h
+ ../src/Engine/Macros/Public/MacroSystem.h
+ ../src/Engine/System/LogSystem/Log.h
+ ../src/Engine/System/Managers/EventsManager.h
+ ../src/Engine/System/Managers/Manager.h
  ../src/Engine/System/Other/Delegate/Delegate.h
  ../src/Engine/System/Other/Delegate/EventObject.h
+ ../src/Engine/System/Other/Multithreading/Thread.h
  ../src/Engine/System/Window/Window.h
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.cpp
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.h
@@ -55,6 +89,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.
  ../src/Engine/CarrotCore.h
  ../src/Engine/Config.h
  ../src/Engine/Core/Object.h
+ ../src/Engine/Includes/SDLIncludes.h
  ../src/Engine/Includes/STLIncludes.h
  ../src/Engine/Macros/Macro.h
  ../src/Engine/Macros/Private/CommonPrivate.h
@@ -63,21 +98,28 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.
  ../src/Engine/Macros/Public/MacroMemory.h
  ../src/Engine/Macros/Public/MacroSystem.h
  ../src/Engine/System/LogSystem/Log.h
+ ../src/Engine/System/Managers/EventsManager.h
+ ../src/Engine/System/Managers/Manager.h
  ../src/Engine/System/Other/Delegate/Delegate.h
  ../src/Engine/System/Other/Delegate/EventObject.h
+ ../src/Engine/System/Other/Multithreading/Thread.h
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.cpp
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o
  ../src/Engine/CarrotCore.h
  ../src/Engine/Config.h
  ../src/Engine/Core/Object.h
+ ../src/Engine/Includes/SDLIncludes.h
  ../src/Engine/Includes/STLIncludes.h
  ../src/Engine/Macros/Macro.h
  ../src/Engine/Macros/Public/Enum.h
  ../src/Engine/Macros/Public/MacroMemory.h
  ../src/Engine/Macros/Public/MacroSystem.h
  ../src/Engine/System/LogSystem/Log.h
+ ../src/Engine/System/Managers/EventsManager.h
+ ../src/Engine/System/Managers/Manager.h
  ../src/Engine/System/Other/Delegate/Delegate.h
  ../src/Engine/System/Other/Delegate/EventObject.h
+ ../src/Engine/System/Other/Multithreading/Thread.h
  /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.h
  /home/eugene/Development/Projects/CarrotEngine/src/main.cpp
