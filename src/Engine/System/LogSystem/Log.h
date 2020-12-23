@@ -2,7 +2,7 @@
 
 #include <string>
 #include <iostream>
-#include "src/Engine/Macros/Macro.h"
+#include "src/Engine/Macros/Public/Enum.h"
 
 namespace Carrot
 {

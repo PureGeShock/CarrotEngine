@@ -22,9 +22,8 @@ public:
 
     FORCE_INLINE void AddWeakListener(const ObjectPtr& Subscriber, CurrentCallback Callback)
     {
-        if (!Subscriber)
+        if (!EnsureMsg(Subscriber, "[Delegate, Weak] cannot subscribe on nullptr object."))
         {
-            CLog(LogType::Error, "[Delegate, Weak] cannot subscribe on nullptr object.");
             return;
         }
 
@@ -34,12 +33,21 @@ public:
     template<class T>
     FORCE_INLINE void AddListener(T* Subscriber, void (T::*Func)(Args ...))
     {
-        if (!Subscriber)
+        if (!EnsureMsg(Subscriber, "[Delegate] cannot subscribe on nullptr object."))
         {
-            CLog(LogType::Error, "[Delegate] cannot subscribe on nullptr object.");
             return;
         }
 
+#if PROJECT_CONFIGURATION == Debug
+        auto EventObjectForCompare = std::make_shared<EventObject<T, Args ...>>(Subscriber, Func);
+        auto FoundIt = std::find_if(ObjectsListeners.begin(), ObjectsListeners.end(),
+            [&EventObjectForCompare](const std::shared_ptr<EventObjectBase<Args ...>>& EventObject)
+            {
+                return EventObject->Compare(*EventObjectForCompare.get());
+            });
+        EnsureMsg(FoundIt == ObjectsListeners.end(), "[Delegate] This function was already added to the delegate!");
+#endif
+            
         ObjectsListeners.push_back(std::make_shared<EventObject<T, Args ...>>(Subscriber, Func));
     }
 

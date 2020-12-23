@@ -15,7 +15,7 @@ void Log::DisplayLog(LogType Type, const std::string& Text)
 
 void Log::DisplayLog(const std::string& LogType, const std::string& Text)
 {
-    std::cout << "Log: |" << LogType << "| " << Text << "\n";
+    std::cout << "\n" << "Log: |" << LogType << "| " << Text << "\n";
 }
 
 }

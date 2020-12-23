@@ -22,7 +22,7 @@ public:
 
     virtual void Main_Loop() override;
 
-    virtual void Update(float dt) override;
+    virtual void Update(float dt);
 
     EventDelegate<EventType, SDL_CommonEvent> OnCommonEvent;
     EventDelegate<EventType, SDL_DisplayEvent> OnDisplayEvent;

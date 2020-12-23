@@ -13,6 +13,8 @@ class Object
 public:
     virtual ~Object() {}
     inline ObjectPtr This() { return shared_from_this(); }
+
+    std::string GetClassName() const;
 };
 
 }
