@@ -30,6 +30,14 @@ public:
         WeakListeners.push_back(std::make_pair(std::weak_ptr<Object>(Subscriber), Callback));
     }
 
+    static FORCE_INLINE EventDelegate<Args ...> CreateDelegateWithWeakListener(const ObjectPtr& Subscriber, CurrentCallback Callback)
+    {
+        EventDelegate<Args ...> NewDelegate;
+        NewDelegate.AddWeakListener(Subscriber, Callback);
+
+        return NewDelegate;
+    }
+
     template<class T>
     FORCE_INLINE void AddListener(T* Subscriber, void (T::*Func)(Args ...))
     {

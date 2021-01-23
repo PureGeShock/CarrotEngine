@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o"
+  "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o"

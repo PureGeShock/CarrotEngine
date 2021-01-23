@@ -4,6 +4,7 @@
 #include "src/Engine/System/Managers/Manager.h"
 #include "src/Engine/System/Managers/EventsManager.h"
 #include "src/Engine/System/Managers/UpdateManager.h"
+#include "src/Engine/System/Managers/FileManager.h"
 
 namespace Carrot
 {

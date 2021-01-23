@@ -16,6 +16,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Commo
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/LogSystem/Log.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/EventsManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/Manager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
@@ -51,6 +52,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/LogSystem/Log.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/EventsManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/Manager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
@@ -81,6 +83,24 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Event
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o: ../src/Engine/System/Other/Multithreading/Thread.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o: ../src/Engine/System/Managers/EventsManager.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o: ../src/Engine/System/Managers/EventsManager.h
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Config.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Includes/SDLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Includes/STLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Macro.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Private/CommonPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Private/MacroSystemPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Public/Enum.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Other/Multithreading/Thread.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Managers/FileManager.cpp
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Managers/FileManager.h
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o: ../src/Engine/System/Managers/Manager.cpp
 
@@ -176,6 +196,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Ma
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/LogSystem/Log.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/EventsManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/Manager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h

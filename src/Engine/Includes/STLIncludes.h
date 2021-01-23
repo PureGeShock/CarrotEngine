@@ -10,3 +10,6 @@
 #include <thread>
 #include <mutex>
 #include <queue>
+#include <fstream>
+#include <sstream>
+#include <future>

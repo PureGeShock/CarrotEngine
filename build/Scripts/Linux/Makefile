@@ -287,6 +287,33 @@ __/__/src/Engine/System/Managers/EventsManager.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.s
 .PHONY : __/__/src/Engine/System/Managers/EventsManager.cpp.s
 
+__/__/src/Engine/System/Managers/FileManager.o: __/__/src/Engine/System/Managers/FileManager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/FileManager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/FileManager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/FileManager.cpp.o
+
+__/__/src/Engine/System/Managers/FileManager.i: __/__/src/Engine/System/Managers/FileManager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/FileManager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/FileManager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/FileManager.cpp.i
+
+__/__/src/Engine/System/Managers/FileManager.s: __/__/src/Engine/System/Managers/FileManager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/FileManager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/FileManager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/FileManager.cpp.s
+
 __/__/src/Engine/System/Managers/Manager.o: __/__/src/Engine/System/Managers/Manager.cpp.o
 
 .PHONY : __/__/src/Engine/System/Managers/Manager.o
@@ -584,6 +611,9 @@ help:
 	@echo "... __/__/src/Engine/System/Managers/EventsManager.o"
 	@echo "... __/__/src/Engine/System/Managers/EventsManager.i"
 	@echo "... __/__/src/Engine/System/Managers/EventsManager.s"
+	@echo "... __/__/src/Engine/System/Managers/FileManager.o"
+	@echo "... __/__/src/Engine/System/Managers/FileManager.i"
+	@echo "... __/__/src/Engine/System/Managers/FileManager.s"
 	@echo "... __/__/src/Engine/System/Managers/Manager.o"
 	@echo "... __/__/src/Engine/System/Managers/Manager.i"
 	@echo "... __/__/src/Engine/System/Managers/Manager.s"
