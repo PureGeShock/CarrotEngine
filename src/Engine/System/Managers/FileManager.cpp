@@ -11,34 +11,39 @@ void FileManager::Initialize()
 
 void FileManager::Main_Loop()
 {
-    // Read from file async
     {
-        auto It = m_AsyncReadData.begin();
-        auto End = m_AsyncReadData.end();
-
-        while (It != End)
+        std::lock_guard<std::mutex> lock(GetMutex());
+        // Read from file async
         {
-            ReadData& Data = (*It);
-            Data.Delegate.Broadcast(true, ReadFromFileSync(Data.FileName));
+            auto It = m_AsyncReadData.begin();
+            auto End = m_AsyncReadData.end();
 
-            It = m_AsyncReadData.erase(It);
-            End = m_AsyncReadData.end();
+            while (It != End)
+            {
+                ReadData& Data = (*It);
+                
+                Data.Delegate.Broadcast(true, ReadFromFileSync(Data.FileName));
+
+                It = m_AsyncReadData.erase(It);
+                End = m_AsyncReadData.end();
+            }
         }
-    }
 
-    // Write to file async
-    {
-        auto It = m_AsyncWriteData.begin();
-        auto End = m_AsyncWriteData.end();
-
-        while (It != End)
+        // Write to file async
         {
-            WriteData& Data = (*It);
-            WriteToFileSync(Data.FileName, Data.Data, Data.WPolicy);
-            Data.Delegate.Broadcast(true);
+            auto It = m_AsyncWriteData.begin();
+            auto End = m_AsyncWriteData.end();
 
-            It = m_AsyncWriteData.erase(It);
-            End = m_AsyncWriteData.end();
+            while (It != End)
+            {
+                WriteData& Data = (*It);
+
+                WriteToFileSync(Data.FileName, Data.Data, Data.WPolicy);
+                Data.Delegate.Broadcast(true);
+                
+                It = m_AsyncWriteData.erase(It);
+                End = m_AsyncWriteData.end();
+            }
         }
     }
     
@@ -47,7 +52,7 @@ void FileManager::Main_Loop()
 
 void FileManager::Update(float dt)
 {
-
+    
 }
     
 std::string FileManager::ReadFromFile(
@@ -109,7 +114,17 @@ void FileManager::ReadFromFileAsync(const std::string& FileName, FileReadAsyncDe
 
 void FileManager::WriteToFileSync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy)
 {
-    std::ofstream FileOut(FileName);
+    std::ofstream FileOut;
+    switch (WPolicy)
+    {
+    case WritePolicy::AddToTheEndOfFile:
+        FileOut.open(FileName, std::ios::app);
+        break;
+    case WritePolicy::Default:
+        FileOut.open(FileName);
+        break;
+    }
+
     bool IsSuccess = !FileOut.fail();
     if (!EnsureMsg(IsSuccess, "[FileManager] Failed to open file " + FileName))
     {
@@ -122,6 +137,8 @@ void FileManager::WriteToFileSync(const std::string& FileName, const std::string
 
 void FileManager::WriteToFileAsync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy, FileWriteAsyncDelegate AsyncDelegate)
 {
+    std::lock_guard<std::mutex> lock(GetMutex());
+
     m_AsyncWriteData.push_back(WriteData{AsyncDelegate, FileName, Data, WPolicy});
 }
 

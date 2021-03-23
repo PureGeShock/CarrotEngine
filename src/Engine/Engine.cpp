@@ -207,7 +207,6 @@ void Engine::Initialize()
 
     m_TestObject = std::make_shared<SomeTest>();
     m_TestObject->SetUpdateActive(true);
-
 }
 
 void Engine::Loop()
@@ -243,6 +242,8 @@ void Engine::Loop()
         }
 
         Time += dt;
+
+        CLog(LogType::Info, std::to_string(Time));
 
 
 

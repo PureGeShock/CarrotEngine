@@ -19,7 +19,8 @@ enum class ExecutionPolicy
 
 enum class WritePolicy
 {
-    Default
+    Default,
+    AddToTheEndOfFile
 };
 
 using FileReadAsyncDelegate = EventDelegate<bool, const std::string&>;
@@ -55,6 +56,10 @@ private:
     {
         FileReadAsyncDelegate Delegate;
         std::string FileName;
+
+        bool IsRead = false;
+
+        FORCE_INLINE bool IsValid() const { return !FileName.empty(); }
     };
     std::string ReadFromFileSync(const std::string& FileName);
     void ReadFromFileAsync(const std::string& FileName, FileReadAsyncDelegate AsyncDelegate);
@@ -66,6 +71,10 @@ private:
         std::string FileName;
         std::string Data;
         WritePolicy WPolicy;
+
+        bool IsWritten = false;
+
+        FORCE_INLINE bool IsValid() const { return !FileName.empty(); }
     };
     void WriteToFileSync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy);
     void WriteToFileAsync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy, FileWriteAsyncDelegate AsyncDelegate);

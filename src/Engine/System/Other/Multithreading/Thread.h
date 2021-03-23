@@ -44,10 +44,11 @@ public:
 protected:
 
     /** 
-     * Dont call it manually, just override. To run thread, call Join/Detach.
+     * Dont call it manually, just override. To run thread, call Run().
      */
     virtual void Main() {};
     virtual void Main_Loop() {};
+    FORCE_INLINE std::mutex& GetMutex() { return m_mtx; };
 
 private:
 
@@ -63,7 +64,7 @@ private:
     void Main_Loop_Impl();
 
     std::unique_ptr<std::thread> m_thread;
-    //std::mutex m_mtx;
+    std::mutex m_mtx;
 };
 
 }

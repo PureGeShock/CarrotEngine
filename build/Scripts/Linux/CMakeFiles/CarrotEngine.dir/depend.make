@@ -62,7 +62,27 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/Engine.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/LogSystem/Log.h
 
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Config.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Core/Interfaces/Interface.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Engine.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Includes/SDLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Includes/STLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Macro.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Private/CommonPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Private/MacroSystemPrivate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/Enum.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/EventsManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/FileManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Other/Multithreading/Thread.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.cpp
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/LogSystem/Log.h
 

@@ -35,6 +35,7 @@ public:
     FORCE_INLINE static Engine* GetInstance() { return m_instance; }
 
     void Initialize();
+    FORCE_INLINE bool IsInitialized() const { return m_IsInitialized; }
     void Loop();
 
     template<class TManager>
