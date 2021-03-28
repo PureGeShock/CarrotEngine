@@ -503,6 +503,60 @@ __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s
 .PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.s
 
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.o: __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o
+
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.i: __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.i
+
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.s: __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.s
+
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.o: __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.o
+
+# target to build an object file
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o
+
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.i: __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.i
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.i
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.i
+
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.s: __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.s
+
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.s
+.PHONY : __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.s
+
 __/__/src/Engine/System/Window/Platform/Window_Linux.o: __/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o
 
 .PHONY : __/__/src/Engine/System/Window/Platform/Window_Linux.o
@@ -635,6 +689,12 @@ help:
 	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.o"
 	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.i"
 	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadController.s"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadObject.o"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadObject.i"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadObject.s"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.o"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.i"
+	@echo "... __/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.s"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.o"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.i"
 	@echo "... __/__/src/Engine/System/Window/Platform/Window_Linux.s"

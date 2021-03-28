@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+../src/Engine/CarrotCore.h
+Macros/Macro.h
+../src/Engine/Macros/Macro.h
+Core/Object.h
+../src/Engine/Core/Object.h
+System/LogSystem/Log.h
+../src/Engine/System/LogSystem/Log.h
+System/Other/Delegate/Delegate.h
+../src/Engine/System/Other/Delegate/Delegate.h
+System/Managers/EventsManager.h
+../src/Engine/System/Managers/EventsManager.h
+Includes/STLIncludes.h
+../src/Engine/Includes/STLIncludes.h
+Includes/SDLIncludes.h
+../src/Engine/Includes/SDLIncludes.h
+glm/glm.hpp
+-
+
 ../src/Engine/Config.h
 
 ../src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
@@ -19,22 +37,6 @@ src/Engine/Macros/Public/MacroSystem.h
 ../src/Engine/Core/Object.h
 src/Engine/Macros/Macro.h
 ../src/Engine/Core/src/Engine/Macros/Macro.h
-
-../src/Engine/Engine.h
-vector
--
-src/Engine/System/Managers/Manager.h
-../src/Engine/src/Engine/System/Managers/Manager.h
-src/Engine/System/Managers/EventsManager.h
-../src/Engine/src/Engine/System/Managers/EventsManager.h
-src/Engine/System/Managers/UpdateManager.h
-../src/Engine/src/Engine/System/Managers/UpdateManager.h
-src/Engine/System/Managers/FileManager.h
-../src/Engine/src/Engine/System/Managers/FileManager.h
-src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
-../src/Engine/src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
-src/Engine/Core/Object.h
-../src/Engine/src/Engine/Core/Object.h
 
 ../src/Engine/Includes/SDLIncludes.h
 SDL2/SDL.h
@@ -137,6 +139,8 @@ src/Engine/System/Other/Delegate/Delegate.h
 ../src/Engine/System/Managers/src/Engine/System/Other/Delegate/Delegate.h
 src/Engine/System/Other/Multithreading/Thread.h
 ../src/Engine/System/Managers/src/Engine/System/Other/Multithreading/Thread.h
+src/Engine/System/Other/Multithreading/ThreadTaskExecutor.h
+../src/Engine/System/Managers/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.h
 
 ../src/Engine/System/Managers/Manager.h
 src/Engine/Macros/Macro.h
@@ -170,19 +174,13 @@ src/Engine/Includes/STLIncludes.h
 src/Engine/Macros/Macro.h
 ../src/Engine/System/Other/Multithreading/src/Engine/Macros/Macro.h
 
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp
-IUpdateable.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
-src/Engine/System/Managers/UpdateManager.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/src/Engine/System/Managers/UpdateManager.h
-src/Engine/Engine.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/src/Engine/Engine.h
-
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
-src/Engine/Core/Interfaces/Interface.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/src/Engine/Core/Interfaces/Interface.h
-src/Engine/Macros/Public/MacroSystem.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Core/Interfaces/Common/Update/src/Engine/Macros/Public/MacroSystem.h
+../src/Engine/System/Other/Multithreading/ThreadTaskExecutor.h
+src/Engine/CarrotCore.h
+../src/Engine/System/Other/Multithreading/src/Engine/CarrotCore.h
+src/Engine/Includes/STLIncludes.h
+../src/Engine/System/Other/Multithreading/src/Engine/Includes/STLIncludes.h
+src/Engine/System/Other/Multithreading/Thread.h
+../src/Engine/System/Other/Multithreading/src/Engine/System/Other/Multithreading/Thread.h
 
 /home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.cpp
 Engine.h
@@ -216,14 +214,6 @@ src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
 src/Engine/Core/Object.h
 /home/eugene/Development/Projects/CarrotEngine/src/Engine/src/Engine/Core/Object.h
 
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.cpp
-Log.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.h
-src/Engine/Engine.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/src/Engine/Engine.h
-src/Engine/System/Managers/FileManager.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/src/Engine/System/Managers/FileManager.h
-
 /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/Log.h
 string
 -
@@ -231,42 +221,4 @@ iostream
 -
 src/Engine/Macros/Public/Enum.h
 /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/LogSystem/src/Engine/Macros/Public/Enum.h
-
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/FileManager.cpp
-FileManager.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/FileManager.h
-src/Engine/Includes/STLIncludes.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/Includes/STLIncludes.h
-
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/FileManager.h
-src/Engine/System/Managers/Manager.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/System/Managers/Manager.h
-src/Engine/Includes/STLIncludes.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/Includes/STLIncludes.h
-src/Engine/Includes/SDLIncludes.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/Includes/SDLIncludes.h
-src/Engine/System/Other/Delegate/Delegate.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/System/Other/Delegate/Delegate.h
-src/Engine/System/Other/Multithreading/Thread.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/src/Engine/System/Other/Multithreading/Thread.h
-
-/home/eugene/Development/Projects/CarrotEngine/src/main.cpp
-stdio.h
--
-GL/glew.h
--
-SDL2/SDL.h
--
-fstream
--
-vector
--
-string
--
-sstream
--
-iostream
--
-Engine/Engine.h
-/home/eugene/Development/Projects/CarrotEngine/src/Engine/Engine.h
 

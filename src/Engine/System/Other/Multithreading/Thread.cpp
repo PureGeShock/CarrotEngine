@@ -15,7 +15,8 @@ Thread::~Thread()
 
 void Thread::Run(
     ThreadRunMode RunMode /*= ThreadRunMode::Detach*/, 
-    ThreadCallMode CallMode /*= ThreadCallMode::SingleCall*/)
+    ThreadCallMode CallMode /*= ThreadCallMode::SingleCall*/,
+    int32_t _EveryFrameSleepTime /*= 100 MS */)
 {
     InitializeThreadCallMode(CallMode);
     
@@ -23,6 +24,8 @@ void Thread::Run(
     {
         return;
     }
+
+    EveryFrameSleepTime = _EveryFrameSleepTime;
 
     RunMode == ThreadRunMode::Join 
             ? m_thread->join()
@@ -65,6 +68,7 @@ void Thread::Main_Loop_Impl()
     while (IsValid)
     {
         Main_Loop();
+        std::this_thread::sleep_for(std::chrono::milliseconds(EveryFrameSleepTime));
     }
 }
 

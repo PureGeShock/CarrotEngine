@@ -6,55 +6,30 @@ namespace Carrot
 
 void FileManager::Initialize()
 {
-    Run(ThreadRunMode::Detach, ThreadCallMode::LoopCall);
+    ReadFileTaskExecutor.RunTaskExecutor(ThreadRunMode::Detach, ThreadCallMode::LoopCall);
+    ReadFileTaskExecutor.OnExecuteTask.AddListener(this, &FileManager::OnReadTaskExecute);
+
+    WriteFileTaskExecutor.RunTaskExecutor(ThreadRunMode::Detach, ThreadCallMode::LoopCall);
+    WriteFileTaskExecutor.OnExecuteTask.AddListener(this, &FileManager::OnWriteTaskExecute);
 }
 
-void FileManager::Main_Loop()
+void FileManager::OnReadTaskExecute(ReadData& Data)
 {
-    {
-        std::lock_guard<std::mutex> lock(GetMutex());
-        // Read from file async
-        {
-            auto It = m_AsyncReadData.begin();
-            auto End = m_AsyncReadData.end();
+    Data.Delegate.Broadcast(true, ReadFromFileSync(Data.FileName));
+}
 
-            while (It != End)
-            {
-                ReadData& Data = (*It);
-                
-                Data.Delegate.Broadcast(true, ReadFromFileSync(Data.FileName));
-
-                It = m_AsyncReadData.erase(It);
-                End = m_AsyncReadData.end();
-            }
-        }
-
-        // Write to file async
-        {
-            auto It = m_AsyncWriteData.begin();
-            auto End = m_AsyncWriteData.end();
-
-            while (It != End)
-            {
-                WriteData& Data = (*It);
-
-                WriteToFileSync(Data.FileName, Data.Data, Data.WPolicy);
-                Data.Delegate.Broadcast(true);
-                
-                It = m_AsyncWriteData.erase(It);
-                End = m_AsyncWriteData.end();
-            }
-        }
-    }
-    
-    std::this_thread::sleep_for(std::chrono::milliseconds(100));
+void FileManager::OnWriteTaskExecute(WriteData& Data)
+{
+    WriteToFileSync(Data.FileName, Data.Data, Data.WPolicy);
+    Data.Delegate.Broadcast(true);
 }
 
 void FileManager::Update(float dt)
 {
-    
+    WriteFileTaskExecutor.UpdateData();
+    ReadFileTaskExecutor.UpdateData();
 }
-    
+
 std::string FileManager::ReadFromFile(
     const std::string& FileName, 
     ExecutionPolicy ExPolicy,
@@ -109,11 +84,16 @@ std::string FileManager::ReadFromFileSync(const std::string& FileName)
 
 void FileManager::ReadFromFileAsync(const std::string& FileName, FileReadAsyncDelegate AsyncDelegate)
 {
-    m_AsyncReadData.push_back(ReadData{AsyncDelegate, FileName});
+    ReadFileTaskExecutor.AddData(ReadData{AsyncDelegate, FileName});
 }
 
 void FileManager::WriteToFileSync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy)
 {
+    if (!EnsureMsg(!FileName.empty(), "[FileManager] FileName is empty"))
+    {
+        return;
+    }
+
     std::ofstream FileOut;
     switch (WPolicy)
     {
@@ -126,7 +106,7 @@ void FileManager::WriteToFileSync(const std::string& FileName, const std::string
     }
 
     bool IsSuccess = !FileOut.fail();
-    if (!EnsureMsg(IsSuccess, "[FileManager] Failed to open file " + FileName))
+    if (!EnsureMsg(IsSuccess, "[FileManager] Failed to write to file " + FileName))
     {
         return;
     }
@@ -137,9 +117,7 @@ void FileManager::WriteToFileSync(const std::string& FileName, const std::string
 
 void FileManager::WriteToFileAsync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy, FileWriteAsyncDelegate AsyncDelegate)
 {
-    std::lock_guard<std::mutex> lock(GetMutex());
-
-    m_AsyncWriteData.push_back(WriteData{AsyncDelegate, FileName, Data, WPolicy});
+    WriteFileTaskExecutor.AddData(WriteData{AsyncDelegate, FileName, Data, WPolicy});
 }
 
 }

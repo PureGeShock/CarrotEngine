@@ -17,13 +17,14 @@ class Log
 {
 public:
 
-    static void DisplayLog(LogType Type, const std::string& Text);
+    static void DisplayLog(LogType Type, const std::string& Text, bool WriteToFile = true);
+    static void ClearLogFile();
 
 private:
 
-    static void DisplayLog(const std::string& LogType, const std::string& Text);
+    static void DisplayLog(const std::string& LogType, const std::string& Text, bool WriteToFile);
 };
 
-void CLog(LogType Type, const std::string& Text);
+void CLog(LogType Type, const std::string& Text, bool WriteToFile = true);
 
 }

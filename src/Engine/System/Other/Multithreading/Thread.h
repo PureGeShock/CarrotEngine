@@ -36,7 +36,8 @@ public:
     /** Runs this thread */
     void Run(
         ThreadRunMode RunMode = ThreadRunMode::Detach, 
-        ThreadCallMode CallMode = ThreadCallMode::SingleCall);
+        ThreadCallMode CallMode = ThreadCallMode::SingleCall,
+        int32_t EveryFrameSleepTime = 100 /* MS */);
 
     /** Stops this thread */
     void Stop();
@@ -48,7 +49,7 @@ protected:
      */
     virtual void Main() {};
     virtual void Main_Loop() {};
-    FORCE_INLINE std::mutex& GetMutex() { return m_mtx; };
+    //FORCE_INLINE std::mutex& GetMutex() { return m_mtx; };
 
 private:
 
@@ -64,7 +65,9 @@ private:
     void Main_Loop_Impl();
 
     std::unique_ptr<std::thread> m_thread;
-    std::mutex m_mtx;
+    //std::mutex m_mtx;
+
+    int32_t EveryFrameSleepTime = 0;
 };
 
 }

@@ -5,6 +5,7 @@
 #include "src/Engine/Includes/SDLIncludes.h"
 #include "src/Engine/System/Other/Delegate/Delegate.h"
 #include "src/Engine/System/Other/Multithreading/Thread.h"
+#include "src/Engine/System/Other/Multithreading/ThreadTaskExecutor.h"
 
 namespace Carrot
 {
@@ -28,7 +29,6 @@ using FileWriteAsyncDelegate = EventDelegate<bool>;
 
 class FileManager 
     : public Manager
-    , public Thread
 {
 public:
     virtual void Initialize() override;
@@ -46,24 +46,19 @@ public:
         FileWriteAsyncDelegate AsyncDelegate = FileWriteAsyncDelegate(),
         WritePolicy WrPolicy = WritePolicy::Default);
 
-protected:
-
-    virtual void Main_Loop() override;
-
 private:
 
     struct ReadData
     {
         FileReadAsyncDelegate Delegate;
         std::string FileName;
-
-        bool IsRead = false;
-
-        FORCE_INLINE bool IsValid() const { return !FileName.empty(); }
     };
+
     std::string ReadFromFileSync(const std::string& FileName);
     void ReadFromFileAsync(const std::string& FileName, FileReadAsyncDelegate AsyncDelegate);
-    std::vector<ReadData> m_AsyncReadData;
+    
+    ThreadTaskExecutor<ReadData> ReadFileTaskExecutor;
+    void OnReadTaskExecute(ReadData& Data);
 
     struct WriteData
     {
@@ -71,14 +66,13 @@ private:
         std::string FileName;
         std::string Data;
         WritePolicy WPolicy;
-
-        bool IsWritten = false;
-
-        FORCE_INLINE bool IsValid() const { return !FileName.empty(); }
     };
+
     void WriteToFileSync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy);
     void WriteToFileAsync(const std::string& FileName, const std::string& Data, WritePolicy WPolicy, FileWriteAsyncDelegate AsyncDelegate);
-    std::vector<WriteData> m_AsyncWriteData;
+    
+    ThreadTaskExecutor<WriteData> WriteFileTaskExecutor;
+    void OnWriteTaskExecute(WriteData& Data);
 };
 
 } 

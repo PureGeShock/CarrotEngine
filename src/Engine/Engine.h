@@ -54,11 +54,14 @@ private:
     bool m_IsRunning = false;
 
     int32_t m_CurrentFPS = 0;
+    uint32_t m_TicksCount = 0;
 
     void InitializeManagers();
 
     template<class TManager>
     TManager* InitializeManager();
+
+    void OnEngineInitialized();
 
     std::vector<ManagerPtr> m_Managers;
 

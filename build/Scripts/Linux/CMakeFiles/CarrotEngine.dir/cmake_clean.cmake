@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o"
+  "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o"
+  "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o"
   "CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o"

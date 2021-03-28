@@ -166,7 +166,7 @@ void Engine::Initialize()
     glContext = SDL_GL_CreateContext(window);
 
     // ----- SDL v-sync
-    SDL_GL_SetSwapInterval(1);
+    SDL_GL_SetSwapInterval(0);
 
     // ----- GLEW
     glewInit();
@@ -201,35 +201,45 @@ void Engine::Initialize()
 
     //glClearColor(0.0f, 0.0f, 0.4f, 0.0f);
 
+    /* Initialize every system in Engine */
+    
     InitializeManagers();
 
     m_IsInitialized = m_IsRunning = true;
 
     m_TestObject = std::make_shared<SomeTest>();
     m_TestObject->SetUpdateActive(true);
+
+    OnEngineInitialized();
 }
 
 void Engine::Loop()
 {
     while (m_IsRunning)
     {
-        const clock_t begin_time = clock();
-        static float dt = 0.0f;
+        static float dt = 0.016f;
+
+        uint32_t TicksDelta = SDL_GetTicks() - m_TicksCount;
+        dt = (SDL_GetTicks() - m_TicksCount) / 1000.0f;
+        m_TicksCount = SDL_GetTicks();
+
+        /*for (int i = 0; i < 100000; i++)
+        {
+            float SomeValue = std::sqrt(std::fabs(std::cos(std::sin(500))));
+            std::sqrt(std::fabs(std::cos(std::sin(SomeValue * i))));
+        }*/
 
         for (auto&& Manager : m_Managers)
         {
             Manager->Update(dt);
         }
 
-        dt = float(clock() - begin_time) / CLOCKS_PER_SEC;
-
         /* FPS count */
-        m_CurrentFPS = 1.0f / dt;
-
-
-
-
-
+        /* Calculate it in different class and add function "Average FPS" */
+        if (dt != 0)
+        {
+            m_CurrentFPS = 1.0f / dt;
+        }
 
         static float Time = 0.0f;
         static bool IsTimeGone = false;
@@ -243,16 +253,13 @@ void Engine::Loop()
 
         Time += dt;
 
-        CLog(LogType::Info, std::to_string(Time));
+        CLog(LogType::Info, "CurrentFPS = " + std::to_string(m_CurrentFPS));
+        //CLog(LogType::Info, std::to_string(Time));
 
 
 
 
         /* TEST, REMOVE IT */
-
-        const auto before = std::chrono::system_clock::now();
-
-        const auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>(std::chrono::system_clock::now() - before);
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -293,6 +300,11 @@ void Engine::InitializeManagers()
     // Other Managers
 
     InitializeManager<UpdateManager>();
+}
+
+void Engine::OnEngineInitialized()
+{
+    Log::ClearLogFile();
 }
 
 void Engine::OnDestroy(EventType Type, SDL_QuitEvent Event)
