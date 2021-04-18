@@ -341,6 +341,60 @@ __/__/src/Engine/System/Managers/Manager.cpp.s:
 	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.s
 .PHONY : __/__/src/Engine/System/Managers/Manager.cpp.s
 
+__/__/src/Engine/System/Managers/Performance/FPSManager.o: __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o
+
+__/__/src/Engine/System/Managers/Performance/FPSManager.i: __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i
+
+__/__/src/Engine/System/Managers/Performance/FPSManager.s: __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s
+
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.o: __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o
+
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.o
+
+# target to build an object file
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o
+
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.i: __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i
+
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.i
+
+# target to preprocess a source file
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i
+
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.s: __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s
+
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.s
+
+# target to generate assembly for a file
+__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s:
+	cd /home/eugene/Development/Projects/CarrotEngine/build && $(MAKE) -f Scripts/Linux/CMakeFiles/CarrotEngine.dir/build.make Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s
+.PHONY : __/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s
+
 __/__/src/Engine/System/Managers/UpdateManager.o: __/__/src/Engine/System/Managers/UpdateManager.cpp.o
 
 .PHONY : __/__/src/Engine/System/Managers/UpdateManager.o
@@ -671,6 +725,12 @@ help:
 	@echo "... __/__/src/Engine/System/Managers/Manager.o"
 	@echo "... __/__/src/Engine/System/Managers/Manager.i"
 	@echo "... __/__/src/Engine/System/Managers/Manager.s"
+	@echo "... __/__/src/Engine/System/Managers/Performance/FPSManager.o"
+	@echo "... __/__/src/Engine/System/Managers/Performance/FPSManager.i"
+	@echo "... __/__/src/Engine/System/Managers/Performance/FPSManager.s"
+	@echo "... __/__/src/Engine/System/Managers/Rendering/RenderSystem.o"
+	@echo "... __/__/src/Engine/System/Managers/Rendering/RenderSystem.i"
+	@echo "... __/__/src/Engine/System/Managers/Rendering/RenderSystem.s"
 	@echo "... __/__/src/Engine/System/Managers/UpdateManager.o"
 	@echo "... __/__/src/Engine/System/Managers/UpdateManager.i"
 	@echo "... __/__/src/Engine/System/Managers/UpdateManager.s"

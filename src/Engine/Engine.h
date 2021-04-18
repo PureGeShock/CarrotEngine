@@ -5,25 +5,13 @@
 #include "src/Engine/System/Managers/EventsManager.h"
 #include "src/Engine/System/Managers/UpdateManager.h"
 #include "src/Engine/System/Managers/FileManager.h"
+#include "src/Engine/System/Managers/Performance/FPSManager.h"
+#include "src/Engine/System/Managers/Rendering/RenderSystem.h"
 
 namespace Carrot
 {
 
 PTR(Manager);
-
-
-
-#include "src/Engine/Core/Interfaces/Common/Update/IUpdateable.h"
-#include "src/Engine/Core/Object.h"
-class SomeTest 
-    : public Object
-    , public IUpdateable
-{
-public:
-    virtual void Update(float dt) override;
-};
-
-
 
 /**
  * To run engine, call Initialize() and then Loop()
@@ -40,9 +28,6 @@ public:
 
     template<class TManager>
     TManager* GetManager();
-    void RegisterManager(const ManagerPtr& Manager);
-
-    int32_t GetCurrentFPS() const { return m_CurrentFPS; }
 
 private:
 
@@ -53,7 +38,6 @@ private:
 
     bool m_IsRunning = false;
 
-    int32_t m_CurrentFPS = 0;
     uint32_t m_TicksCount = 0;
 
     void InitializeManagers();
@@ -64,8 +48,6 @@ private:
     void OnEngineInitialized();
 
     std::vector<ManagerPtr> m_Managers;
-
-    std::shared_ptr<SomeTest> m_TestObject;
 };
 
 template<class TManager>

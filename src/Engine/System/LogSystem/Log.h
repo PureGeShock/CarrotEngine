@@ -25,6 +25,6 @@ private:
     static void DisplayLog(const std::string& LogType, const std::string& Text, bool WriteToFile);
 };
 
-void CLog(LogType Type, const std::string& Text, bool WriteToFile = true);
+void CarrotLog(LogType Type, const std::string& Text, bool WriteToFile = true);
 
 }

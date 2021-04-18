@@ -161,9 +161,35 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manag
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.s"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Manager.cpp -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.s
 
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Performance/FPSManager.cpp
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Performance/FPSManager.cpp > CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.i
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Performance/FPSManager.cpp -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.s
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Rendering/RenderSystem.cpp
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Rendering/RenderSystem.cpp > CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.i
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s"
+	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/Rendering/RenderSystem.cpp -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.s
+
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o: ../src/Engine/System/Managers/UpdateManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/UpdateManager.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.i: cmake_force
@@ -176,7 +202,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Updat
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o: ../src/Engine/System/Managers/WindowsManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Managers/WindowsManager.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.i: cmake_force
@@ -189,7 +215,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Windo
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Delegate/Delegate.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.i: cmake_force
@@ -202,7 +228,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Delegate/EventObject.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/EventObject.cpp.i: cmake_force
@@ -215,7 +241,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o: ../src/Engine/System/Other/Multithreading/Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/Thread.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/Thread.cpp.i: cmake_force
@@ -228,7 +254,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithr
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o: ../src/Engine/System/Other/Multithreading/ThreadController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/ThreadController.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadController.cpp.i: cmake_force
@@ -241,7 +267,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithr
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o: ../src/Engine/System/Other/Multithreading/ThreadObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/ThreadObject.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadObject.cpp.i: cmake_force
@@ -254,7 +280,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithr
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o: ../src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithreading/ThreadTaskExecutor.cpp.i: cmake_force
@@ -267,7 +293,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Multithr
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o: ../src/Engine/System/Window/Platform/Window_Linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Platform/Window_Linux.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platform/Window_Linux.cpp.i: cmake_force
@@ -280,7 +306,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Platfor
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o: ../src/Engine/System/Window/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/Engine/System/Window/Window.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.cpp.i: cmake_force
@@ -293,7 +319,7 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Window/Window.
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: Scripts/Linux/CMakeFiles/CarrotEngine.dir/flags.make
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o -c /home/eugene/Development/Projects/CarrotEngine/src/main.cpp
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.i: cmake_force
@@ -314,6 +340,8 @@ CarrotEngine_OBJECTS = \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o" \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o" \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o" \
+"CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o" \
+"CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o" \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o" \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o" \
 "CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o" \
@@ -337,6 +365,8 @@ CarrotEngine_EXTERNAL_OBJECTS =
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/EventsManager.cpp.o
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o
+../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o
+../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/WindowsManager.cpp.o
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Other/Delegate/Delegate.cpp.o
@@ -353,7 +383,7 @@ CarrotEngine_EXTERNAL_OBJECTS =
 ../bin/Linux/CarrotEngine: /usr/lib/x86_64-linux-gnu/libGLU.so
 ../bin/Linux/CarrotEngine: /usr/lib/x86_64-linux-gnu/libGLEW.so
 ../bin/Linux/CarrotEngine: Scripts/Linux/CMakeFiles/CarrotEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable ../../../bin/Linux/CarrotEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/eugene/Development/Projects/CarrotEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable ../../../bin/Linux/CarrotEngine"
 	cd /home/eugene/Development/Projects/CarrotEngine/build/Scripts/Linux && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CarrotEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

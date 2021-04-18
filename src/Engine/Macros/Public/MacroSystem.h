@@ -21,7 +21,7 @@
         } \
         else \
         { \
-            Carrot::CLog(Carrot::LogType::Error, Msg); \
+            Carrot::CarrotLog(Carrot::LogType::Error, Msg); \
             DEBUG_BREAK; \
         } \
         return false; \

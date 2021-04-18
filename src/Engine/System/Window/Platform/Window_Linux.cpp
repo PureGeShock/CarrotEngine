@@ -23,7 +23,7 @@ void Window_Linux::InitializeWindow()
 
     if (!m_SDLWindow)
     {
-        CLog(LogType::Error, "Creating window failed!");
+        CarrotLog(LogType::Error, "Creating window failed!");
     }
 }
 

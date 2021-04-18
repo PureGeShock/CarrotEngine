@@ -23,7 +23,7 @@ void Log::ClearLogFile()
 #endif
 }
 
-void CLog(LogType Type, const std::string& Text, bool WriteToFile)
+void CarrotLog(LogType Type, const std::string& Text, bool WriteToFile)
 {
     Log::DisplayLog(Type, Text, WriteToFile);
 }

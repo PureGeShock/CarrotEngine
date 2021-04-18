@@ -19,6 +19,8 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Commo
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/EventsManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Core/Interfaces/Common/Update/IUpdateable.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
@@ -57,6 +59,8 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/EventsManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/Engine.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
@@ -84,6 +88,8 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/EventsManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/LogSystem/Log.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
@@ -132,6 +138,40 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileM
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/FileManager.cpp.o: ../src/Engine/System/Managers/FileManager.h
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Manager.cpp.o: ../src/Engine/System/Managers/Manager.cpp
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Config.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Includes/SDLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Includes/STLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Macro.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Private/CommonPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Private/MacroSystemPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Public/Enum.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.cpp
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Performance/FPSManager.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.h
+
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Config.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Core/Object.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Includes/SDLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Includes/STLIncludes.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Macro.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Private/CommonPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Private/MacroSystemPrivate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Public/Enum.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Public/MacroMemory.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/Macros/Public/MacroSystem.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/LogSystem/Log.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.cpp
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/Rendering/RenderSystem.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.h
 
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o: ../src/Engine/Config.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/Engine/System/Managers/UpdateManager.cpp.o: ../src/Engine/Core/Interfaces/Common/Update/IUpdateable.h
@@ -268,6 +308,8 @@ Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/Sy
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/EventsManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/FileManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/Manager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/Performance/FPSManager.h
+Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/Rendering/RenderSystem.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Managers/UpdateManager.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Other/Delegate/Delegate.h
 Scripts/Linux/CMakeFiles/CarrotEngine.dir/__/__/src/main.cpp.o: ../src/Engine/System/Other/Delegate/EventObject.h

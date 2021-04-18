@@ -64,7 +64,7 @@ public:
     {
         if (!Subscriber)
         {
-            CLog(LogType::Error, "[Delegate] cannot remove listener for nullptr object.");
+            CarrotLog(LogType::Error, "[Delegate] cannot remove listener for nullptr object.");
             return;
         }
 
@@ -91,7 +91,7 @@ public:
     {
         if (!Subscriber)
         {
-            CLog(LogType::Error, "[Delegate] cannot remove listeners for nullptr object.");
+            CarrotLog(LogType::Error, "[Delegate] cannot remove listeners for nullptr object.");
             return;
         }
 
