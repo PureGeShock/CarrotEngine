@@ -4,6 +4,7 @@
 #include "src/Engine/Core/Object.h"
 #include "src/Engine/Macros/Macro.h"
 #include "EventObject.h"
+#include <type_traits>
 
 namespace Carrot
 {
@@ -46,12 +47,20 @@ public:
             return;
         }
 
+        static_assert(std::is_base_of<Object, T>::value, "ERROR: Subscriber must be of type Object");
+
+        auto* ObjectSubscriber = static_cast<Object*>(Subscriber);
+        if (!EnsureMsg(ObjectSubscriber, "ObjectSubscriber is not of type Object"))
+        {
+            return;
+        }
+
 #if PROJECT_CONFIGURATION == Debug
         auto EventObjectForCompare = std::make_shared<EventObject<T, Args ...>>(Subscriber, Func);
         auto FoundIt = std::find_if(ObjectsListeners.begin(), ObjectsListeners.end(),
-            [&EventObjectForCompare](const std::shared_ptr<EventObjectBase<Args ...>>& EventObject)
+            [&EventObjectForCompare](const std::shared_ptr<EventObjectBase<Args ...>>& ObjListener)
             {
-                return EventObject->Compare(*EventObjectForCompare.get());
+                return ObjListener->Compare(*EventObjectForCompare.get());
             });
         EnsureMsg(FoundIt == ObjectsListeners.end(), "[Delegate] This function was already added to the delegate!");
 #endif

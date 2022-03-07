@@ -1,5 +1,6 @@
 #pragma once
 
+#include "src/Engine/Core/Object.h"
 
 namespace Carrot
 {
@@ -25,27 +26,45 @@ class EventObject
 
 public:
 
-    EventObject(T* Object, ObjectFunction Function)
+    EventObject(T* _Object, ObjectFunction Function)
     {
-        m_Object = Object;
+        if (!EnsureMsg(_Object && Function, "Cannot subscribe to invalid objects"))
+        {
+            return;
+        }
+
+        auto* ObjectHolder = static_cast<Object*>(_Object);
+        if (!EnsureMsg(ObjectHolder, "ObjectSubscriber is not of type Object"))
+        {
+            return;
+        }
+
+        m_WeakHolder = ObjectHolder->This();
+        m_Object = _Object;
         m_Function = Function;
     }
 
     virtual bool IsValid() const override
     {
-        return static_cast<bool>(m_Object) && static_cast<bool>(m_Function);
+        return static_cast<bool>(m_WeakHolder.lock()) && static_cast<bool>(m_Object) && static_cast<bool>(m_Function);
     }
 
     virtual void Invoke(Args ... args) override
     {
-        (m_Object->*m_Function)(args...);
+        if (IsValid())
+        {
+            (m_Object->*m_Function)(args...);
+        }
     }
 
     virtual bool Compare(const EventObjectBase<Args ...>& Other) const override
     {
         if (EventObject<T, Args ...>* CastedOther = (EventObject<T, Args ...>*)(&Other))
         {
-            return this->m_Object == CastedOther->m_Object && this->m_Function == CastedOther->m_Function;
+            if (IsValid() && CastedOther->IsValid())
+            {
+                return m_Object == CastedOther->m_Object && m_Function == CastedOther->m_Function;
+            }
         }
 
         return false;
@@ -55,7 +74,10 @@ public:
     {
         if (EventObject<T, Args ...>* CastedOther = (EventObject<T, Args ...>*)(&Other))
         {
-            return this->m_Object == CastedOther->m_Object;
+            if (IsValid() && CastedOther->IsValid())
+            {
+                return m_Object == CastedOther->m_Object;
+            }
         }
 
         return false;
@@ -63,8 +85,9 @@ public:
 
 private:
 
-    T* m_Object;
-    ObjectFunction m_Function;
+    T* m_Object = nullptr;
+    std::weak_ptr<Object> m_WeakHolder;
+    ObjectFunction m_Function = nullptr;
 };
 
 }

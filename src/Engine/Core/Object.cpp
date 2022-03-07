@@ -7,5 +7,5 @@ std::string Object::GetClassName() const
 {
     return typeid(this).name();
 }
-    
+
 }

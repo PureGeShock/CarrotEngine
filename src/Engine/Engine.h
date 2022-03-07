@@ -17,10 +17,11 @@ PTR(Manager);
  * To run engine, call Initialize() and then Loop()
 */
 class Engine
+    : public Object
 {
 public:
 
-    FORCE_INLINE static Engine* GetInstance() { return m_instance; }
+    FORCE_INLINE static std::shared_ptr<Engine> GetInstance() { return m_instance; }
 
     void Initialize();
     FORCE_INLINE bool IsInitialized() const { return m_IsInitialized; }
@@ -34,7 +35,7 @@ private:
     void OnDestroy(EventType Type, SDL_QuitEvent Event);
 
     bool m_IsInitialized = false;
-    static Engine* m_instance;
+    static std::shared_ptr<Engine> m_instance;
 
     bool m_IsRunning = false;
 

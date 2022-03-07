@@ -7,7 +7,7 @@
 namespace Carrot
 {
 
-Engine* Engine::m_instance = new Engine();
+std::shared_ptr<Engine> Engine::m_instance = std::make_shared<Engine>();
 
 void Engine::Initialize()
 {

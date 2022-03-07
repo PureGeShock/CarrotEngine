@@ -49,7 +49,7 @@ static GLuint LoadShaders(const char * vertex_file_path,const char * fragment_fi
     // Компилируем Вершинный шейдер
     printf("Компиляция шейдера: %sn", vertex_file_path);
     char const * VertexSourcePointer = VertexShaderCode.c_str();
-    glShaderSource(VertexShaderID, 1, &VertexSourcePointer , NULL);
+    glShaderSource(VertexShaderID, 1, &VertexSourcePointer, NULL);
     glCompileShader(VertexShaderID);
 
     // Выполняем проверку Вершинного шейдера
